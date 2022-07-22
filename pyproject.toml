@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 79
+# include =
+exclude = '''
+/(
+    \.git
+  | __pycache__
+  | .pytest_cache
+  | .venv
+  | alembic
+  | staticfiles
+  | build
+  | dist
+)/
+'''
