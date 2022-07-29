@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     # Local
+    "accounts.apps.AccountsConfig",
     "todos.apps.TodosConfig",
 ]
 
@@ -108,6 +109,8 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 # Custom configurations
 REST_FRAMEWORK = {
