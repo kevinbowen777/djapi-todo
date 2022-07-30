@@ -1,3 +1,4 @@
+from django.views.generic import ListView
 from rest_framework import generics
 
 from .models import Todo
@@ -12,3 +13,8 @@ class ListTodo(generics.ListAPIView):
 class DetailTodo(generics.RetrieveAPIView):
     queryset = Todo.objects.all()
     serializer_class = TodoSerializer
+
+
+class TodoListView(ListView):
+    model = Todo
+    template_name = "todo_list.html"
