@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "dj_rest_auth",
     "dj_rest_auth.registration",
+    "drf_spectacular",
     # Local
     "accounts.apps.AccountsConfig",
     "todos.apps.TodosConfig",
@@ -129,6 +130,7 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework.authentication.TokenAuthentication",
     ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
 CORS_ALLOWED_ORIGINS = (
@@ -141,3 +143,9 @@ CSRF_TRUSTED_ORIGINS = ["http://localhost:3000"]
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 SITE_ID = 1
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "djapi-todo",
+    "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",
+    "VERSION": "0.1.0",
+}
