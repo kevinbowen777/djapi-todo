@@ -1,6 +1,9 @@
 from django.contrib import admin
 from django.urls import include, path
-from drf_spectacular.views import SpectacularAPIView
+from drf_spectacular.views import (
+    SpectacularAPIView,
+    SpectacularRedocView,
+)
 
 from todos.views import TodoListView
 
@@ -18,6 +21,11 @@ urlpatterns = [
         "api/schema/",
         SpectacularAPIView.as_view(),
         name="schema",
+    ),
+    path(
+        "api/schema/redoc/",
+        SpectacularRedocView.as_view(url_name="schema"),
+        name="redoc",
     ),
     path("", TodoListView.as_view()),
 ]
