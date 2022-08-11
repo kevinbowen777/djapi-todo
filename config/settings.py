@@ -146,6 +146,6 @@ SITE_ID = 1
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "djapi-todo",
-    "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",
+    "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",  # noqa:E501,B950
     "VERSION": "0.1.0",
 }

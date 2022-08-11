@@ -5,7 +5,6 @@ from drf_spectacular.views import (
     SpectacularRedocView,
     SpectacularSwaggerView,
 )
-
 from todos.views import TodoListView
 
 
