@@ -1,10 +1,11 @@
-from rest_framework.routers import SimpleRouter
+from django.urls import path
 
-from .views import ListViewSet, UserViewSet
+from .views import DetailTodo, ListTodo, UserDetail, UserList
 
 
-router = SimpleRouter()
-router.register("users", UserViewSet, basename="users")
-router.register("", ListViewSet, basename="todos")
-
-urlpatterns = router.urls
+urlpatterns = [
+    path("users/", UserList.as_view()),
+    path("users/<int:pk>/", UserDetail.as_view()),
+    path("<int:pk>/", DetailTodo.as_view(), name="todo_detail"),
+    path("", ListTodo.as_view(), name="todo_list"),
+]
