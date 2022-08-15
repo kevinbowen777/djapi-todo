@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     # Third-party packages
+    "bootstrap4",
+    "crispy_forms",
     "rest_framework",
     "corsheaders",
     "rest_framework.authtoken",
@@ -149,3 +151,6 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",  # noqa:E501,B950
     "VERSION": "0.1.0",
 }
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = "bootstrap4"
