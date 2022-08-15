@@ -9,7 +9,12 @@ from todos.views import TodoListView
 
 
 urlpatterns = [
+    # Django admin
     path("admin/", admin.site.urls),
+    # User management
+    path("accounts/", include("allauth.urls")),
+    # Local apps
+    path("", include("pages.urls")),
     path("api/v1/", include("todos.urls")),
     path("api-auth/", include("rest_framework.urls")),
     path("api/v1/dj-rest-auth/", include("dj_rest_auth.urls")),
