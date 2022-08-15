@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     # Local
     "accounts.apps.AccountsConfig",
+    "pages.apps.PagesConfig",
     "todos.apps.TodosConfig",
 ]
 
