@@ -1,7 +1,15 @@
-<h2>All Todos</h2>
-{% for todo in todo_list %}
-<ul>
-  <li>Title: {{ todo.title }}</li>
-  <li>Body: {{ todo.body }}</li>
-</ul>
-{% endfor %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <p>
+    <h2>All Todos</h2>
+    {% for todo in todo_list %}
+      <ul>
+        <li>Title: {{ todo.title }}</li>
+        <li>Body: {{ todo.body }}</li>
+      </ul>
+    {% endfor %}
+  </p>
+</div>
+{% endblock content %}
