@@ -8,7 +8,6 @@ from drf_spectacular.views import (
     SpectacularRedocView,
     SpectacularSwaggerView,
 )
-from todos.views import TodoListView
 
 
 urlpatterns = [
@@ -17,6 +16,7 @@ urlpatterns = [
     # User management
     path("accounts/", include("allauth.urls")),
     # Local apps
+    path("accounts/", include("accounts.urls")),
     path("", include("pages.urls")),
     path("api/v1/", include("todos.urls")),
     path("api-auth/", include("rest_framework.urls")),
@@ -40,5 +40,4 @@ urlpatterns = [
         SpectacularSwaggerView.as_view(url_name="schema"),
         name="swagger-ui",
     ),
-    path("", TodoListView.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
