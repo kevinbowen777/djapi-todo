@@ -65,6 +65,7 @@ django-allauth = "~=0.48.0"
 drf-spectacular = "^0.23.1"
 django-bootstrap4 = "^22.2"
 django-crispy-forms = "^1.14.0"
+Pillow = "^9.2.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.20.0"
