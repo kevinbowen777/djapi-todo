@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     # Third-party packages
     "bootstrap4",
     "crispy_forms",
+    "django_countries",
     "rest_framework",
     "corsheaders",
     "rest_framework.authtoken",
