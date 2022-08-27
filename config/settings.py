@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "bootstrap4",
     "crispy_forms",
     "django_countries",
+    "django_extensions",
     "rest_framework",
     "corsheaders",
     "rest_framework.authtoken",

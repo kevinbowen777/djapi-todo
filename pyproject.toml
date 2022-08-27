@@ -86,6 +86,10 @@ flake8-docstrings = "^1.6.0"
 flake8-import-order = "^0.18.1"
 safety = "^2.1.1"
 factory-boy = "3.0.1"
+django-extensions = "^3.2.0"
+ipython = "^8.4.0"
+friendly = "^0.5.35"
+colorama = "^0.4.5"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings"
