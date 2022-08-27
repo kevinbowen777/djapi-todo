@@ -144,6 +144,14 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.TokenAuthentication",
     ],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "PAGE_SIZE": 3,
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "djapi-todo",
+    "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",  # noqa:E501,B950
+    "VERSION": "0.1.0",
 }
 
 CORS_ALLOWED_ORIGINS = (
@@ -161,12 +169,6 @@ AUTHENTICATION_BACKENDS = (
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
-SPECTACULAR_SETTINGS = {
-    "TITLE": "djapi-todo",
-    "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",  # noqa:E501,B950
-    "VERSION": "0.1.0",
-}
 
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = "bootstrap4"
