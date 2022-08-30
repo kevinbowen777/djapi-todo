@@ -1,6 +1,14 @@
 ## djapi-todo
 
-Basic todo application & API built with Django & Djano REST Framework (DRF)
+ <div align="center">
+
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/kevinbowen777/djapi-todo.svg)](https://github.com/kevinbowen777/djapi-todo/issues)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+ - Basic todo application & API built with Django & Djano REST Framework (DRF)
 
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-todo.git`
@@ -52,8 +60,6 @@ Basic todo application & API built with Django & Djano REST Framework (DRF)
 ### Docker Container Image:
  - N/A
 
----
-![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/djapi-todo/blob/master/LICENSE)
 ---
 ### Reporting Bugs
 
