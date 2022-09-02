@@ -10,6 +10,18 @@
 
  - Basic todo application & API built with Django & Djano REST Framework (DRF)
 
+---
+## Features
+
+ - Browseable Web API
+ - SwaggerUI & ReDoc API documentation
+ - User registration with email verification & social(GitHub) login
+ - Bootstrap4 & crispy-forms decorations
+ - Customizable user profiles with bio, profile picture & country flags
+ - Nox testing sessions (black, linting, pytest, coverage, Sphinx doc generation)
+
+---
+
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-todo.git`
  - `cd djapi-todo`
@@ -48,9 +60,6 @@
     http://127.0.0.1:8000/api/schema/swagger-ui/
 
 ---
-## Features
- - Basic browseable API
- - Admin management of todo tasks
 
 ### Live Demo on Heroku:
  - [kbowen-djapi-todo](https://kbowen-djapi-todo.herokuapp.com/)
