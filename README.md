@@ -8,17 +8,42 @@
 
 </div>
 
- - Basic todo application & API built with Django & Djano REST Framework (DRF)
+ - A basic to-do/task application & API built with Django 4.1 & Django REST Framework (DRF) 3.13
+
+##### Table of Contents
+ - [Features](#features)
+ - [Installation](#installation)
+ - [Testing](#testing)
+ - [API URLs](#api-urls)
+ - [Application Demo](#application-demo)
+ - [Screenshots](#screenshots)
+ - [Reporting Bugs](#reporting-bugs)
 
 ---
-## Features
 
- - Browseable Web API
- - SwaggerUI & ReDoc API documentation
- - User registration with email verification & social(GitHub) login
- - Bootstrap4 & crispy-forms decorations
- - Customizable user profiles with bio, profile picture & country flags
- - Nox testing sessions (black, linting, pytest, coverage, Sphinx doc generation)
+### Features
+ - Application
+     - Browseable Web API
+     - SwaggerUI & ReDoc API documentation
+     - User registration with email verification & social(GitHub) login
+     - Bootstrap4 & crispy-forms decorations
+     - Customizable user profile pages with bio, profile pic, & country flags
+ - Dev/testing
+     - basic module testing templates
+     - Coverage reports
+     - Debug-toolbar available
+     - Examples of using Factories & pytest fixtures in account app testing
+     - `shell_plus` with IPython via `django-extensions` package
+     - Nox testing sessions for latest Python 3.9, 3.10, and 3.11
+         - black
+         - Sphinx documentaion generation
+         - linting
+             - flake8
+             - flake8-bugbear
+             - flake8-docstrings
+             - flake8-import-order
+         - safety(python package vulnerability testing)
+         - pytest sessions with coverage
 
 ---
 
@@ -34,10 +59,20 @@
      - `docker-compose up --build`
      - `docker-compose python manage.py migrate`
      - `docker-compose python manage.py createsuperuser`
- - Open browser to http://127.0.0.1:8000
+ - Browse to http://127.0.0.1:8000 or http://127.0.0.1:8000/admin/
 
 ---
-### URLs
+
+### Testing
+ - `docker-compose exec web python manage.py test`
+ - `coverage run -m pytest`
+ - Nox (includes sessions for black, lint, safety, tests)
+     - testing supported for Python 3.9, 3.10, 3.11
+     - e.g. `nox`, `nox -rs lint-3.11`, `nox -s tests`
+
+---
+
+### API URLs
  - Log In endpoint:
     http://127.0.0.1:8000/api/v1/dj-rest-auth/login/
  - Log Out endpoint:
@@ -61,13 +96,13 @@
 
 ---
 
-### Live Demo on Heroku:
+### Application Demo
+A live application demonstration hosted at Heroku
  - [kbowen-djapi-todo](https://kbowen-djapi-todo.herokuapp.com/)
- - [kbowen-djapi-todo API Endpoint](https://kbowen-djapi-todo.herokuapp.com/api)
- - [kbowen-djapi-todo API JSON](http://kbowen-djapi-todo/api/?format=json)
 
-### Docker Container Image:
- - N/A
+---
+
+### Screenshots
 
 ---
 ### Reporting Bugs
