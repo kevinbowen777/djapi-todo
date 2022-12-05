@@ -31,7 +31,7 @@ export WEB_CONCURRENCY=1
 # python -c 'import secrets; print(secrets.token_urlsafe(38))'
 export SECRET_KEY=<secret_key>
 # Uncomment the following three lines to run a sqlite3 db locally.
-# ENGINE_DB=djapi-todo.db.backends.sqlite3
+# ENGINE_DB=django.db.backends.sqlite3
 # DATABASE_URL=sqlite:///djapi-todo.sqlite3
 # export POSTGRES_DB=djapi-todo.sqlite3
 export POSTGRES_USER=dummy
