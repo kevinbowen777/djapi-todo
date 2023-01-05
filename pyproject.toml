@@ -47,13 +47,13 @@ show_missing = true
 [tool.poetry]
 name = "djapi-todo"
 version = "0.1.0"
-description = "Basic to-do application & API built with Django & Djano REST Framework (DRF)"
+description = "Basic to-do application & API built with Django & Django REST Framework (DRF)"
 authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.1"
+Django = "4.1.4"
 environs = {extras = ["django"], version = "^9.5.0"}
 djangorestframework = "^3.14.0"
 django-cors-headers = "^3.13.0"
