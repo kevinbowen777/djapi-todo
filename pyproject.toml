@@ -90,7 +90,7 @@ friendly = "^0.7.0"
 colorama = "^0.4.5"
 Sphinx = "^6.0.0"
 flake8-import-order = "^0.18.2"
-django-debug-toolbar = "^3.8.1"
+django-debug-toolbar = "^4.0.0"
 django-test-plus = "^2.2.1"
 pytest-sugar = "^0.9.6"
 
