@@ -13,7 +13,7 @@ djapi-todo
    :backlinks: top
    :depth: 2
 
-A basic blogging website & API built with Django 4.1 & Django REST Framework (DRF) 3.13
+A basic blogging website & API built with Django 4.2.x & Django REST Framework (DRF) 3.13.x
 
 Features
 --------
