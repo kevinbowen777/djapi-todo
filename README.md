@@ -133,6 +133,22 @@ TBD
 
 ### Screenshots
 
+### Home
+![Home](images/djapi-todo_home.png)
+
+### Login Page
+![Login Page](images/djapi-todo_signin.png)
+
+### Todo API list
+![Todo API detail](images/djapi-todo_list.png)
+
+### Profile Page
+![Profile Page](images/djapi-todo_profile_page.png)
+
+### Swagger UI Response
+![Swagger UI Response](images/djapi-todo_swagger_ui_response.png)
+
+
 ---
 ### Reporting Bugs
 
