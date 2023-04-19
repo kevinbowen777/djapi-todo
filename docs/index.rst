@@ -7,13 +7,15 @@ djapi-todo
 
    license
    package_index
+   create_new_users
+   create_new_todos
 
 .. contents:: Table of Contents
    :local:
    :backlinks: top
    :depth: 2
 
-A basic blogging website & API built with Django 4.2.x & Django REST Framework (DRF) 3.13.x
+A basic todo/task tracking website & API built with Django 4.2.x & Django REST Framework (DRF) 3.13.x
 
 Features
 --------
