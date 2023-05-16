@@ -1,4 +1,5 @@
 from django.urls import path
+
 from todos.views import TodoListView
 
 from .views import (
@@ -7,7 +8,6 @@ from .views import (
     HomePageView,
     SuccessView,
 )
-
 
 urlpatterns = [
     path("about/", AboutPageView.as_view(), name="about"),
