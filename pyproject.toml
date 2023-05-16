@@ -42,7 +42,7 @@ show_missing = true
 
 [tool.poetry]
 name = "djapi-todo"
-version = "0.1.0"
+version = "0.2.0"
 description = "Basic to-do application & API built with Django & Django REST Framework (DRF)"
 authors = [
     "Kevin Bowen <kevin.bowen@gmail.com>",
