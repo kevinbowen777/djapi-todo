@@ -10,6 +10,7 @@ exclude = '''
   | staticfiles
   | build
   | dist
+  | ^.*\b(migrations)\b.*$
 )/
 '''
 
@@ -114,7 +115,8 @@ django-extensions = "^3.2.0"
 ipython = "^8.4.0"
 friendly = "^0.7.0"
 colorama = "^0.4.5"
-Sphinx = "^7.0.0"
+Sphinx = "6.2.1"
+sphinx-rtd-theme = "^1.2.0"
 django-debug-toolbar = "^4.0.0"
 django-test-plus = "^2.2.1"
 pytest-sugar = "^0.9.6"
