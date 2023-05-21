@@ -122,7 +122,7 @@ django-test-plus = "^2.2.1"
 pytest-sugar = "^0.9.6"
 pip-audit = "^2.5.5"
 pip-check = "^2.8.1"
-ruff = "^0.0.267"
+ruff = "^0.0.269"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings"
