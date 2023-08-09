@@ -2,15 +2,13 @@ from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from .models import Todo
+from ..models import Todo
 
 
 class TodoModelTest(APITestCase):
     @classmethod
     def setUpTestData(cls):
-        cls.todo = Todo.objects.create(
-            title="First Todo", body="A body of text here"
-        )
+        cls.todo = Todo.objects.create(title="First Todo", body="A body of text here")
 
     def test_model_content(self):
         self.assertEqual(self.todo.title, "First Todo")
