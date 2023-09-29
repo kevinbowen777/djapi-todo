@@ -12,9 +12,9 @@ h2 a:hover {
   font-weight: 400;
 }
 
-.bookcover {
-  height: 300px;
-  width: auto;
+.jumbotron {
+  border-radius: 25px;
+  margin-top: 25px;
 }
 
 .profile_pic {
