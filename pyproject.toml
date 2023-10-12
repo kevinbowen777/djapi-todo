@@ -44,7 +44,7 @@ django-allauth = ">=0.54.0, < 0.60.0"
 environs = { version = "^9.5.0", extras = ["django"] }
 djangorestframework = "^3.14.0"
 django-cors-headers = "^4.0"
-whitenoise = "^6.2.0"
+whitenoise = "^6.1.0"
 gunicorn = "^21.0"
 psycopg2-binary = "^2.9.5"
 drf-spectacular = "^0.26.0"
