@@ -44,7 +44,7 @@ Installation
      * `black <https://pypi.org/project/black/>`_
      * `Sphinx <https://pypi.org/project/Sphinx/>`_ documentaion generation
      * linting
-       
+
        * `flake8 <https://pypi.org/project/flake8/>`_
        * `flake8-bandit <https://pypi.org/project/flake8-bandit/>`_
        * `flake8-bugbear <https://pypi.org/project/flake8-bugbear/>`_
@@ -144,11 +144,12 @@ Testing
    $ coverage run -m pytest
    $ nox --list-sessions
    $ nox
-   $ nox -s black-3.12 
-   $ nox -s docs-3.11 
-   $ nox -rs lint-3.9  (Use the 'r' flag to reuse existing session)
+   $ nox -s black-3.12
+   $ nox -s docs-3.11
+   $ nox -rs lint-3.10  (Use the 'r' flag to reuse existing session)
+   $ nox -s pyright-3.11
    $ nox -s safety  (will run tests against all Python versions)
-   $ nox -s tests 
+   $ nox -s tests
 
 Application Demo
 ----------------
