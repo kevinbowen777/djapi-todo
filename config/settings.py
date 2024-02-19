@@ -1,4 +1,4 @@
-"""Settings for djapi-todo DRF API project """
+"""Settings for djapi-todo DRF API project"""
 
 from pathlib import Path
 
