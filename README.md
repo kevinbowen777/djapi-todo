@@ -9,7 +9,7 @@
 
 </div>
 
- - A basic to-do/task application & API built with Django 5.1.x & Django REST Framework (DRF) 3.13.x
+ - A basic to-do/task application & API built with Django 5.2.x & Django REST Framework (DRF) 3.16.x
 
 [Mirror repository](https://gitlab.com/kevinbowen/djapi-todo.git)
 
