@@ -1,7 +1,7 @@
 djapi-todo
 ==========
 
-The djapi-todo_ API is built using the Django 6.x and Django REST Framework (DRF) 3.17.x and is part of the collection of `Web Framework Projects`_ .
+The djapi-todo_ API is built using the Django 6.x and Django REST Framework (DRF) 3.18.x and is part of the collection of `Web Framework Projects`_ .
 
 .. _djapi-todo: https://github.com/kevinbowen777/djapi-todo
 .. _Web Framework Projects: https://github.com/kevinbowen777/web-project-index
