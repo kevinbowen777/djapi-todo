@@ -27,6 +27,50 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-todo 0.3.6 (2026-09-14)
+=============================
+
+Contributor-facing changes
+--------------------------
+
+-  (`#581 <https://github.com/kevinbowen777/djapi-todo/issues/581>`_): Initial zizmor remediation. Pin GitHub actions to hashes.
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-todo/issues/584>`_): Update nox to 2026.8.17
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-todo/issues/584>`_): Update testing to Python 3.14.7, 3.13.15, and 3.12.14
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-todo/issues/584>`_): Update django-debug-toolbar to 7.1.1
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-todo/issues/584>`_): Update gunicorn to 26.1.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update django-allauth to 65.19.3
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update django-countries to 9.1.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update psycopg to 3.3.5
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Upgrade gunicorn to 26.2.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Upgrade environs to 15.2.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update towncrier to 26.9.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update django-debug-toolbar to 8.0.0
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Update djlint to 1.46.1
+
+-  (`#590 <https://github.com/kevinbowen777/djapi-todo/issues/590>`_): Replace master with main in static gh action
+
+-  (`#591 <https://github.com/kevinbowen777/djapi-todo/issues/591>`_): Upgrade GitHub actions to latest versions
+
+
+New features
+------------
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Upgrade Django to 6.1.1
+
+-  (`#589 <https://github.com/kevinbowen777/djapi-todo/issues/589>`_): Upgrade djangorestframework to 3.18.1
+
 djapi-todo 0.3.5 (2026-08-24)
 =============================
 
