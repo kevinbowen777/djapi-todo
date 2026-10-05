@@ -99,7 +99,7 @@ DATABASES = {
         "USER": env.str("POSTGRES_USER", default="fakeuser"),
         "PASSWORD": env.str("POSTGRES_PASSWORD", "password"),
         "HOST": env.str("POSTGRES_HOST", "db"),
-        "PORT": env.int("POSTGRES_PORT", "5432"),
+        "PORT": env.int("POSTGRES_PORT", 5432),
     }
 }
 
@@ -170,7 +170,7 @@ REST_FRAMEWORK = {
 SPECTACULAR_SETTINGS = {
     "TITLE": "djapi-todo",
     "DESCRIPTION": "Basic to-do application & API built with Django & Djano REST Framework (DRF)",
-    "VERSION": "0.1.0",
+    "VERSION": "0.3.7",
 }
 
 LOGIN_REDIRECT_URL = "home"
