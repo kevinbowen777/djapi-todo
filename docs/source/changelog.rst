@@ -27,6 +27,30 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-todo 0.3.8 (2026-10-19)
+=============================
+
+Security updated
+----------------
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update djangorestframework
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update django-allauth to 65.20.0
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update pillow to 13.0.0
+
+-  (`#595 <https://github.com/kevinbowen777/djapi-todo/issues/595>`_): Update Django to 6.1.2
+
+
+Contributor-facing changes
+--------------------------
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update ruff rules & fix reported errors
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update djlint to 1.46.4
+
+-  (`#593 <https://github.com/kevinbowen777/djapi-todo/issues/593>`_): Update testing for Python 3.14.8, 3.13.16, 3.12.15
+
 djapi-todo 0.3.7 (2026-10-05)
 =============================
 
