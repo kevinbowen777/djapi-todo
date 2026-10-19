@@ -21,6 +21,7 @@
 - [API URLs](#api-urls)
 - [Application Demo](#application-demo)
 - [Screenshots](#screenshots)
+- [Contributing](#contributing)
 - [Reporting Bugs](#reporting-bugs)
 
 ---
@@ -157,6 +158,13 @@ TBD
 ### Swagger UI Response
 
 ![Swagger UI Response](images/djapi-todo_swagger_ui_response.png)
+
+---
+
+### Contributing
+
+You are free to fork this repository and modify as you see fit. See
+[CONTRIBUTING](https://github.com/kevinbowen777/djapi-todo/CONTRIBUTING) for details on reporting issues, etc.
 
 ---
 
